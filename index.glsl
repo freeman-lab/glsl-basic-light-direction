@@ -1,6 +1,6 @@
-#pragma glslify: BasicLight = require('glsl-basic-light')
+#pragma glslify: SceneLight = require('glsl-scene-light')
 
-vec3 BasicLightDirection(BasicLight light, vec3 position) {
+vec3 calcLightDirection(SceneLight light, vec3 position) {
 	vec3 direction;
 
 	if (light.position.w == 0.0) {
@@ -12,4 +12,4 @@ vec3 BasicLightDirection(BasicLight light, vec3 position) {
 	return direction;
 }
 
-#pragma glslify: export(BasicLightDirection)
+#pragma glslify: export(calcLightDirection)

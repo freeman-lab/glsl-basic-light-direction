@@ -1,14 +1,14 @@
 {
-  "name": "glsl-basic-light-direction",
+  "name": "glsl-scene-light-direction",
   "version": "1.0.0",
-  "description": "GLSL function for computing lighting direction",
+  "description": "GLSL function for computing lighting direction in scenes",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/freeman-lab/glsl-basic-light-direction.git"
+    "url": "git+https://github.com/freeman-lab/glsl-scene-light-direction.git"
   },
   "keywords": [
     "webgl",
@@ -20,15 +20,15 @@
   "author": "freeman-lab",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/freeman-lab/glsl-basic-light-direction/issues"
+    "url": "https://github.com/freeman-lab/glsl-scene-light-direction/issues"
   },
   "browserify": {
     "transform": [
       "glslify"
     ]
   },
-  "homepage": "https://github.com/freeman-lab/glsl-basic-light-direction#readme",
+  "homepage": "https://github.com/freeman-lab/glsl-scene-light-direction#readme",
   "dependencies": {
-    "glsl-basic-light": "^1.0.0"
+    "glsl-scene-light": "^1.0.0"
   }
 }
