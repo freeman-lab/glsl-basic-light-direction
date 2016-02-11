@@ -23,7 +23,6 @@ Then compute light direction from the vertex position
 
 ```glsl
 pragma glslify: direction = require('glsl-scene-light-direction')
-
 vec3 dir = direction(light, position);
 ```
 
