@@ -35,7 +35,7 @@ The calculated direction depends on the `position` parameter of the light, a `ve
 
 # API
 
-#### `attenuation(light, position)`
+#### `direction(light, position)`
 
 Parameters
 - `light` : `struct` instance of [`glsl-scene-light`](https://github.com/freeman-lab/glsl-scene-light)
