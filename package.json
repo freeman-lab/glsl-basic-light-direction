@@ -1,7 +1,7 @@
 {
   "name": "glsl-scene-light-direction",
   "version": "1.0.0",
-  "description": "GLSL function for computing lighting direction in scenes",
+  "description": "GLSL function for computing lighting direction",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
