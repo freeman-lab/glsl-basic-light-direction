@@ -31,7 +31,7 @@ vec3 dir = direction(light, position);
 The calculated direction depends on the `position` parameter of the light, a `vec4` in homogenous coordinates. The fourth element determines whether the light is directional or not. 
 
 - If the fourth element is `0.0`, the direction will be the normalized light position.
-- If the fourth element is `1.0`, the direction will point from the light to the veertex.
+- If the fourth element is `1.0`, the direction will point from the light to the vertex.
 
 # API
 
