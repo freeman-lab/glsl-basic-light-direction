@@ -1,0 +1,34 @@
+{
+  "name": "glsl-basic-light-direction",
+  "version": "1.0.0",
+  "description": "GLSL function for computing lighting direction",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freeman-lab/glsl-basic-light-direction.git"
+  },
+  "keywords": [
+    "webgl",
+    "shader",
+    "light",
+    "lightig",
+    "3d"
+  ],
+  "author": "freeman-lab",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/freeman-lab/glsl-basic-light-direction/issues"
+  },
+  "browserify": {
+    "transform": [
+      "glslify"
+    ]
+  },
+  "homepage": "https://github.com/freeman-lab/glsl-basic-light-direction#readme",
+  "dependencies": {
+    "glsl-basic-light": "^1.0.0"
+  }
+}
