@@ -29,6 +29,6 @@
   },
   "homepage": "https://github.com/freeman-lab/glsl-light-direction#readme",
   "dependencies": {
-    "glsl-light": "^1.0.0"
+    "glsl-light": "^1.0.1"
   }
 }
