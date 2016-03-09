@@ -1,6 +1,6 @@
-# glsl-scene-light-direction
+# glsl-light-direction
 
-GLSL function for computing lighting direction in scenes. Designed for use as a shader component with [`glslify`](https://github.com/stackgl/glslify).
+GLSL function for computing lighting direction. Designed for use as a shader component with [`glslify`](https://github.com/stackgl/glslify) and [`glsl-light`](https://github.com/freeman-lab/glsl-light).
 
 ## install
 
