@@ -1,6 +1,6 @@
-#pragma glslify: SceneLight = require('glsl-scene-light')
+#pragma glslify: Light = require('glsl-light')
 
-vec3 calcLightDirection(SceneLight light, vec3 position) {
+vec3 calcLightDirection(Light light, vec3 position) {
 	vec3 direction;
 
 	if (light.position.w == 0.0) {

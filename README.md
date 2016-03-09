@@ -1,13 +1,13 @@
 # glsl-scene-light-direction
 
-GLSL function for computing lighting direction in scenes. Designed for use as a shader component with [`glslify`](https://github.com/stackgl/glslify) and [`glsl-scene-light`](https://github.com/freeman-lab/glsl-scene-light).
+GLSL function for computing lighting direction in scenes. Designed for use as a shader component with [`glslify`](https://github.com/stackgl/glslify).
 
 ## install
 
 To make avaialble in your project
 
 ```javascript
-npm install glsl-scene-light-direction --save
+npm install glsl-light-direction --save
 ```
 
 ## example
@@ -15,14 +15,14 @@ npm install glsl-scene-light-direction --save
 Define a light in your shader
 
 ```glsl
-pragma glslify: SceneLight = require('glsl-scene-light')
-uniform SceneLight light;
+pragma glslify: Light = require('glsl-light')
+uniform Light light;
 ```
 
 Then compute light direction from the vertex position
 
 ```glsl
-pragma glslify: direction = require('glsl-scene-light-direction')
+pragma glslify: direction = require('glsl-light-direction')
 vec3 dir = direction(light, position);
 ```
 
@@ -38,7 +38,7 @@ The calculated direction depends on the `position` parameter of the light, a `ve
 #### `direction(light, position)`
 
 Parameters
-- `light` : `struct` instance of [`glsl-scene-light`](https://github.com/freeman-lab/glsl-scene-light)
+- `light` : `struct` instance of [`glsl-light`](https://github.com/freeman-lab/glsl-light)
 - `position` : `vec4` position of the light
 
 Returns
